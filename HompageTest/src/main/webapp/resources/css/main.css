@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+@IMPORT url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); /** Font import **/
+
+@IMPORT url("header.css"); /** Header.jsp **/
+@IMPORT url("footer.css"); /** Footer.jsp **/
+@IMPORT url("layer_moviedetail.css"); /** MovieDetail.jsp **/
+@IMPORT url("layer_eventdetail.css"); /** EventDetail.jsp **/
+@IMPORT url("layer_discountdetail.css"); /** DiscountDetail.jsp **/
+
+*{
+	
+}
+boby{
+	font-family: 'Nanum Gothic', sans-serif;
+	margin: 0; padding: 0;
+}
+
+/** wrapper 영역 **/
+.content_wrapper{ 
+	width: 100%;
+	margin-top: 10px;
+	padding-top: 50px; padding-left: 3px; padding-right: 3px; 
+	}
+
+.content_bottomline{
+	border-bottom: solid 1px #bcbcbc;
+}
+
+
+/** 메인 이미지 슬라이더 **/
+#main_slider{
+	margin-top: 120px;
+	width: 1000px; height: 600px;
+	cursor: pointer;
+}
+
+.carousel-inner{
+	width: 100%; height: 600px;
+}
+
+
+/** 메인 영화 **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

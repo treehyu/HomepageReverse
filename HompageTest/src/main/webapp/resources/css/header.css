@@ -1,0 +1,185 @@
+@CHARSET "UTF-8";
+
+/** 네비게이터 영역 **/
+.top_ul{ list-style: none; }
+.top_ul li{ float: left; }
+.top_ul li a{ color: #6e6e6e; }
+
+.top_ul li a:hover{ color: #19DD89; text-decoration: none; }
+.top_ul li:hover{ cursor: pointer; color: #19DD89; }
+
+#top_logo img{ float: left; }
+#top_sitemap_img2{ display: none; }
+
+.top_li{ 
+		padding-top: 10px; padding-bottom: 10px; 
+		/* padding-left: 2%; padding-right: 2%;  */
+		color: #6e6e6e; font-size: 15px; font-weight: bold;
+		border-right: solid 1px #e5e5e5; 
+		width:95px;
+		text-align: center; }
+		
+#ico_home{ width: 45px; }
+.top_ul{ width: 90%; align: center; }
+
+
+/** 사이트맵 영역 **/
+.wrapper_sitemap{ 
+	width: 100%; height: 100%;
+	position: relative; display: none; overflow: hidden;
+	background-color: #f4f4f4; 
+	margin-right: 5%;
+	padding-top: 20px; padding-left: 9%; padding-right: 9%; }
+	
+.wrapper_sitemap dt{  }
+.wrapper_sitemap dt a{ color: black; }
+.wrapper_sitemap dd a{ color: #6e6e6e; }
+
+.wrapper_sitemap dt a:hover{ color: #19DD89; text-decoration: none; }
+.wrapper_sitemap dd a:hover{ font-weight: bold; text-decoration: none; }
+
+.wrapper_sitemap div{ width: 194px; height: 100%; float: left; }
+.wrapper_sitemap div dl{ padding-top: 30px; }
+
+#sitemap_close{ display: none; cursor: pointer;
+                margin-left: 4.5%; padding-left: 9%; }
+                
+
+/** 로그인, 회원정보 **/
+.member_content{ 
+	position: absolute;
+    top: 50px;
+    right: 0;
+	display: none;
+}
+
+.member_content_bottomline{
+	border-bottom: solid 1px #e5e5e5;
+	padding: 5px;
+}
+.member_login, .member_info{ 
+	float: right;
+	background-color: white;
+	border-radius: 4px;
+	border: solid 0.5px #e5e5e5; }
+.member_login{
+	width: 400px; height: 300px; 
+}
+.member_info{
+	width: 350px; height: 300px; 
+}
+
+.member_login #member_login_topimg{ 
+	margin-bottom: 10px;
+	padding-left: 35%; padding-top: 10px;
+}
+.member_login #member_login_btn{
+	color: white;
+	background-color: #642d92;
+	border: none;
+	width: 70px; height: 70px;
+}
+.member_login table td{
+	margin: 3px;
+	padding-left: 25px;
+}
+.member_login #member_login_table{
+	margin-left: 10%;
+}
+.member_login input{
+	width: 200px;
+}
+.member_btn_close{
+	width: 20px; height: 20px; 
+	float: right;
+	cursor: pointer;
+}
+
+.member_info table{
+	width: 98%
+}
+.btn_basic{
+	border: solid 0.5px black;
+	font-size: 12px;
+	width: 80px; height: 20px;
+	background-color: white;
+}
+#member_info_firstcol{
+	height: 35px;
+	font-size: 16px;
+}
+#member_info_secondcol{
+	padding-top: 10px; padding-bottom: 10px;
+	height: 120px;
+}
+#member_info_thirdcol{
+	padding-top: 15px;
+	height: 120px;
+}
+#member_info_lastcol{
+	background-color: #f2f2f2;
+	height: 20px;
+}
+.member_content_ico{
+	width: 70px;
+	cursor: pointer;
+}
+
+/** submenu **/
+#submenu{
+	position: relative;
+}
+#submenu a{
+	color: gray;
+	font-weight: bold;
+	text-decoration: none;
+}
+#submenu a:hover{
+	color:white;
+	text-decoration: none;
+}
+
+
+#submenu_society{
+	position: absolute;
+	top: 128px;
+    left: 134px;
+}
+#submenu_movie{
+	position: absolute;
+    top: 128px;
+    right: 150px;
+}
+
+#submenu #btn_group{
+	margin-left: 15px;
+	float: right;
+}
+#submenu .btn_movie{
+	width: 100px;
+	height: 40px;
+	font-size: 14px;
+}
+#submenu #btn_schedule{
+	border: solid 0.1px #642d92;
+	background-color: white;
+	color: #642d92;
+}
+#submenu #btn_booking{
+	border: solid 0.1px white;
+	background-color: #642d92;
+	color: white;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

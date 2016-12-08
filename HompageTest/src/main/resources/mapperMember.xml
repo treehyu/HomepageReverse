@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="MemberDAO">
+
+	<select id="login" resultType="member">
+		select mem_no, mem_webid, mem_pw, mem_name, mem_nickname, gender, mem_birth
+               , adrs_bs, adrs_dtl, zipcd, joindate, mem_age, final_login, final_logout
+               , prev_login, profile_img, adrs_road_bs, adrs_road_dtl, mobile_serv_no
+               , mobile_mid_no, mobile_end_no, mem_email, grade, img_fmt 
+        from member
+        where mem_webid=#{mem_webid} and mem_pw=#{mem_pw}
+	</select>
+	
+	<select id="getMemberInfo" resultType="member">
+		select mem_no, mem_webid, mem_pw, mem_name, mem_nickname, gender, mem_birth
+               , adrs_bs, adrs_dtl, zipcd, joindate, mem_age, final_login, final_logout
+               , prev_login, profile_img, adrs_road_bs, adrs_road_dtl, mobile_serv_no
+               , mobile_mid_no, mobile_end_no, mem_email, grade, img_fmt 
+        from member
+        where mem_no=#{mem_no}
+	</select>
+	
+</mapper>

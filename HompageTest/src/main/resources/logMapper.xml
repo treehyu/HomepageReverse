@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<logs>
+	<log>
+		<codeNo>01</codeNo>
+		<msg>(xml으로 접근)메인페이지 정상접속입니다.</msg>
+	</log>
+	<log>
+		<codeNo>02</codeNo>
+		<msg>(xml으로 접근)2번 에러입니다.</msg>
+	</log>
+	<log>
+		<codeNo>03</codeNo>
+		<msg>(xml으로 접근)3번 에러입니다.</msg>
+	</log>
+	<log>
+		<codeNo>04</codeNo>
+		<msg>(xml으로 접근)4번 에러입니다.</msg>
+	</log>
+</logs>

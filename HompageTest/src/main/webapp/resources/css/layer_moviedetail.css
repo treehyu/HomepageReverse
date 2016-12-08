@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+
+#movie_info{
+	height: 450px;
+}
+#movie_outline{
+	padding: 2px;
+}
+#movie_img img{
+	width:100%;
+}
+#movie_img{
+	width: 28%;
+	float: left; 
+}
+#movie_content{
+	width: 70%;
+	display: inline;
+}
+.movie_age{
+	color:white; font-size: 20px; text-align:center;
+	width: 40px; height: 40px;
+	border: solid 0.5px white;
+	border-radius: 5px;
+	padding: 5px;
+	float: left;
+}
+#movie_age_12{
+	background-color: blue;
+}
+#movie_name_ko{
+}
+#movie_name_en{
+	color: #bcbcbc;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+.movie_media{
+	color: #bcbcbc;
+	font-size: 18px;
+	font-weight: bold;
+}
+.movie_media:hover{
+	text-decoration: none;
+}
+#active{
+	color: #008580;
+}
+
+#movie_media_img img{
+	width: 200px; height: 80px;
+}
+#move_media_show{
+	width: 800px; height: 400px;
+	border: solid 1px gray;
+}
+
+textarea{
+	width: 500px; height: 80px;
+}
+
+a{
+	color: #bcbcbc;
+}
+a:hover{
+	text-decoration: none;
+}
+
+#list_sort{
+	float: right;
+}
+
+.member_img{
+	width: 50px; height: 50px;
+}
+
+#comment_content{
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+#comment_paging button{
+	width: 30px; height: 30px;
+}
